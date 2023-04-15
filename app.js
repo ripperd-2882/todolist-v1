@@ -7,7 +7,7 @@ const app = express();
 let items = ["Buy Food", "Cook Food", "Eat Food"];
 let workItems = [];
 
-app.set('view engine', 'ejs');
+app.set('view engine', 'ejs'); //This line tells our app to use ejs as view engine
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
